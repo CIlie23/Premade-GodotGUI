@@ -2,8 +2,9 @@ extends Control
 
 
 #var game_scene = preload("res://levels/level2.tscn").instantiate()
-var settings_scene = preload("res://Scenes/settings_menu.tscn").instantiate()
-var credits_scene = preload("res://Scenes/credits_menu.tscn").instantiate()
+var settings_scene = preload("res://src/ui/MainMenu/settingsMenu/settings_menu.tscn").instantiate()
+var credits_scene = preload("res://src/ui/MainMenu/creditsMenu/credits_menu.tscn").instantiate()
+
 
 func _on_play_pressed() -> void:
 	pass # Replace with function body.

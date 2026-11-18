@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://cupxb4hkb0kbi"]
 
-[ext_resource type="Script" uid="uid://dqrnwhot7s55" path="res://Scenes/MenuScenes/main_menu.gd" id="1_3skds"]
+[ext_resource type="Script" uid="uid://dqrnwhot7s55" path="res://src/ui/MainMenu/titleScreen/main_menu.gd" id="1_tuhqe"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tuhqe"]
 
 [node name="MainMenu" type="Control" unique_id=436938647]
 layout_mode = 3
@@ -9,7 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_3skds")
+script = ExtResource("1_tuhqe")
 metadata/_edit_lock_ = true
 
 [node name="BACKGROUND" type="Panel" parent="." unique_id=237402004]
@@ -41,7 +43,8 @@ text = "THIS IS A TITLE"
 
 [node name="HSeparator" type="HSeparator" parent="Center" unique_id=704016729]
 layout_mode = 2
-theme_override_constants/separation = 10
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_tuhqe")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Center" unique_id=2132317540]
 layout_mode = 2

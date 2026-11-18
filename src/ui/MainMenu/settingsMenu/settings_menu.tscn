@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://cf8aap84q0866"]
 
-[ext_resource type="Shader" uid="uid://c6eou3taws00l" path="res://Scenes/background.gdshader" id="1_8ef0u"]
-[ext_resource type="Script" uid="uid://dfbq5ab3ybc3c" path="res://Scenes/settings_menu.gd" id="1_rahb6"]
-[ext_resource type="Texture2D" uid="uid://brv316f1j0j4f" path="res://Assets/MenuAssets/british.png" id="2_7y5a0"]
-[ext_resource type="Texture2D" uid="uid://ehhjy2fbfblt" path="res://Assets/MenuAssets/bgSquares.png" id="2_8ef0u"]
-[ext_resource type="Material" uid="uid://c45blnws6i24j" path="res://Shaders/TransitionShader/TransitonShaderMaterial.tres" id="4_3etfd"]
+[ext_resource type="Shader" uid="uid://c6eou3taws00l" path="res://src/ui/MainMenu/background.gdshader" id="1_8ef0u"]
+[ext_resource type="Script" uid="uid://dfbq5ab3ybc3c" path="res://src/ui/MainMenu/settingsMenu/settings_menu.gd" id="1_rahb6"]
+[ext_resource type="Texture2D" uid="uid://brv316f1j0j4f" path="res://src/ui/MainMenu/MenuAssets/british.png" id="2_7y5a0"]
+[ext_resource type="Texture2D" uid="uid://ehhjy2fbfblt" path="res://src/ui/MainMenu/MenuAssets/bgSquares.png" id="2_8ef0u"]
+[ext_resource type="Material" uid="uid://c45blnws6i24j" path="res://assets/shaders/TransitionShader/TransitonShaderMaterial.tres" id="4_3etfd"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_h2y1r"]
 shader = ExtResource("1_8ef0u")

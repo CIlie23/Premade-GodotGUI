@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brv316f1j0j4f"
-path="res://.godot/imported/british.png-e6e07da1fd8c596535bde85d1ff7e4cb.ctex"
+path="res://.godot/imported/british.png-7a8cc4d880c7289464215afd4cf0a8b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/MenuAssets/british.png"
-dest_files=["res://.godot/imported/british.png-e6e07da1fd8c596535bde85d1ff7e4cb.ctex"]
+source_file="res://src/ui/MainMenu/MenuAssets/british.png"
+dest_files=["res://.godot/imported/british.png-7a8cc4d880c7289464215afd4cf0a8b7.ctex"]
 
 [params]
 
