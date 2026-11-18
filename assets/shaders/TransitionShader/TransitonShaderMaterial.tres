@@ -1,9 +1,9 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://c45blnws6i24j"]
 
-[ext_resource type="Shader" uid="uid://ddxgjcn15adry" path="res://assets/shaders/TransitionShader/transition.gdshader" id="1_jneo4"]
+[ext_resource type="Shader" uid="uid://ddxgjcn15adry" path="res://assets/shaders/TransitionShader/transition.gdshader" id="1_btly5"]
 
 [resource]
-shader = ExtResource("1_jneo4")
+shader = ExtResource("1_btly5")
 shader_parameter/use_sprite_alpha = true
 shader_parameter/use_transition_texture = false
 shader_parameter/transition_type = 0
